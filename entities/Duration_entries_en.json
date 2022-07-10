@@ -1,0 +1,14 @@
+[
+  {
+    "value": "[1-9]+\\s∗nights\\s∗[1-9]+\\s∗days",
+    "synonyms": [
+      "[1-9]+\\s∗nights\\s∗[1-9]+\\s∗days"
+    ]
+  },
+  {
+    "value": "[1-9]+\\s∗days",
+    "synonyms": [
+      "[1-9]+\\s∗days"
+    ]
+  }
+]

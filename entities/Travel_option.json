@@ -1,0 +1,9 @@
+{
+  "id": "9ccd291e-8ab5-4411-90c6-26aef2ac5746",
+  "name": "Travel_option",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

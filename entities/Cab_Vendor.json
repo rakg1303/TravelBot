@@ -1,0 +1,9 @@
+{
+  "id": "708921ef-4eca-4748-9c77-8785f242a778",
+  "name": "Cab_Vendor",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "value": "Flight",
+    "synonyms": [
+      "Flight"
+    ]
+  },
+  {
+    "value": "Train",
+    "synonyms": [
+      "Train"
+    ]
+  },
+  {
+    "value": "Cab",
+    "synonyms": [
+      "Cab"
+    ]
+  }
+]

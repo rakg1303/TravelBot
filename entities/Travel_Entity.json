@@ -1,0 +1,9 @@
+{
+  "id": "6d5da1cf-464b-4cc2-8dd3-4a35a17007fd",
+  "name": "Travel_Entity",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": true,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
