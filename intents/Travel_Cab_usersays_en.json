@@ -1,0 +1,66 @@
+[
+  {
+    "id": "abaabf1d-26c6-4b12-87eb-5486d2c0dddc",
+    "data": [
+      {
+        "text": "Cab services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c0c04ff-1419-458c-8e4a-a7bd3bd8369f",
+    "data": [
+      {
+        "text": "Show me some cab details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "755a2965-ed25-4f4d-8b1e-3f35dc33fbd6",
+    "data": [
+      {
+        "text": "I want to travel to airport using Lyft",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7a6bb566-20c3-4ffe-bd63-2166781188a0",
+    "data": [
+      {
+        "text": "I want to book a cab from ",
+        "userDefined": false
+      },
+      {
+        "text": "San Francisco",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " airport to\n Parker guest house ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

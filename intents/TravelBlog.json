@@ -1,0 +1,115 @@
+{
+  "id": "a056ad8d-6622-4635-bd62-a6452bc97eda",
+  "name": "TravelBlog",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "JourneyBlog",
+      "affectedContexts": [
+        {
+          "name": "TravelBlog-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c105ef38-93a0-4f75-a02d-d0743ac7dfce",
+          "required": true,
+          "dataType": "@Travel_option",
+          "name": "travel_options",
+          "value": "$travel_options",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How do you want to travel?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "496dcc63-626a-4fbe-96d7-a9b605ed12bb",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "source",
+          "value": "$source",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter Source Address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2303ced7-8256-4460-bc61-0a335f68422d",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "destination_city",
+          "value": "$destination_city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter Destination Address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "bc69f4e5-af50-4188-bef7-6e5dab7bcb7c",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Great..!!!!Enter date of journey"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Have a great time travelling in $Travel_Options and safe trip travelling from $Source to $Destination_City on $date.Are there any other bookings?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PERMISSION"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

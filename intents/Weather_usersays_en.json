@@ -1,0 +1,118 @@
+[
+  {
+    "id": "e494226b-e7a0-468b-9181-f7416bf17780",
+    "data": [
+      {
+        "text": "tell me about weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2c27add-560c-4cf8-9e3e-6ec41dfeaaf4",
+    "data": [
+      {
+        "text": "What is weather forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "Location",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "460741da-8743-401b-b4ed-05ad61d5d939",
+    "data": [
+      {
+        "text": "How is Climate ",
+        "userDefined": false
+      },
+      {
+        "text": "Today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf2d83f4-9aa7-4568-a784-1229fab2bcc8",
+    "data": [
+      {
+        "text": "Tell me about Weather",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02d63cb7-9272-44fb-b6fd-0d9797e0008b",
+    "data": [
+      {
+        "text": "How is Weather in ",
+        "userDefined": false
+      },
+      {
+        "text": "Location",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf29e4f1-ec95-410a-b793-5482cb6bd16a",
+    "data": [
+      {
+        "text": "How is the Weather ",
+        "userDefined": false
+      },
+      {
+        "text": "Today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

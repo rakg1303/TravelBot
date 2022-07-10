@@ -1,0 +1,138 @@
+{
+  "id": "de9e8fdf-7ab3-4d48-8eaa-8850a821ceb3",
+  "parentId": "a056ad8d-6622-4635-bd62-a6452bc97eda",
+  "rootParentId": "a056ad8d-6622-4635-bd62-a6452bc97eda",
+  "name": "TravelBlog - Accomodation",
+  "auto": true,
+  "contexts": [
+    "TravelBlog-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ade7701d-6034-4236-a2e8-b0c7f3824f0f",
+          "required": true,
+          "dataType": "@Room_Type",
+          "name": "room_type",
+          "value": "$room_type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many rooms you need to book?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8939a7a3-c09e-4a3d-9bfb-eef706484b0a",
+          "required": true,
+          "dataType": "@Hotel_Name",
+          "name": "hotel_name",
+          "value": "$hotel_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter the Hotel Name...."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "16f70cea-5ce6-4abc-bcd2-e0c70cfd1ab0",
+          "required": true,
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many days you want to stay?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a54acac1-cf24-4389-9f49-12b969aa226b",
+          "required": false,
+          "dataType": "@sys.duration",
+          "name": "duration1",
+          "value": "$duration1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1bbe507c-e63a-4317-95ac-694e1dbb399d",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "from_date",
+          "value": "$from_date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter Check-In date"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "631e1ff5-8389-458c-af2c-d0ba47865160",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "to_date",
+          "value": "$to_date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter Check-Out date"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$room_type has been booked in $hotel_name from #TravelBlog-followup.Destination_City from $from_date to $to_date.Enjoy your stay..!!!!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

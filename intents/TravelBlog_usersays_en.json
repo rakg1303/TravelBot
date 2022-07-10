@@ -1,0 +1,94 @@
+[
+  {
+    "id": "07ac47d7-11a0-4da4-95dc-5aa6c47405e1",
+    "data": [
+      {
+        "text": "Help me with travel options from ",
+        "userDefined": false
+      },
+      {
+        "text": "Las Vegas",
+        "alias": "source",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to Brooklyn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63fb8a79-be2f-4f47-a6c8-0036a3075f3a",
+    "data": [
+      {
+        "text": "Travel guide from ",
+        "userDefined": false
+      },
+      {
+        "text": "Chicago",
+        "alias": "source",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston",
+        "alias": "destination_city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e9b02fa1-6951-4d35-a8cd-f0d4ec80c43e",
+    "data": [
+      {
+        "text": "I want to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "flight",
+        "alias": "travel_options",
+        "meta": "@Travel_option",
+        "userDefined": false
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "Chicago",
+        "alias": "source",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Los Angeles",
+        "alias": "destination_city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " on 02 nov",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

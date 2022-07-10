@@ -1,0 +1,90 @@
+[
+  {
+    "id": "f8bb0ac3-05f8-42a8-a72b-ee10ae469cdb",
+    "data": [
+      {
+        "text": "I want to book ",
+        "userDefined": false
+      },
+      {
+        "text": "single",
+        "alias": "room_type",
+        "meta": "@Room_Type",
+        "userDefined": false
+      },
+      {
+        "text": " room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Hyatt",
+        "alias": "hotel_name",
+        "meta": "@Hotel_Name",
+        "userDefined": false
+      },
+      {
+        "text": " hotel for ",
+        "userDefined": false
+      },
+      {
+        "text": "3 nights",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      },
+      {
+        "text": "\n and ",
+        "userDefined": false
+      },
+      {
+        "text": "2 days",
+        "alias": "duration1",
+        "meta": "@sys.duration",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc297d24-a40f-4a1a-bc19-eddb12fe0d4d",
+    "data": [
+      {
+        "text": "What are different hotels available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb8012eb-b426-4704-a788-7af76bdcea6f",
+    "data": [
+      {
+        "text": "I want to book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a7d0c217-bc7a-47b9-9f4d-0d5efe8332d9",
+    "data": [
+      {
+        "text": "I need accomodation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
