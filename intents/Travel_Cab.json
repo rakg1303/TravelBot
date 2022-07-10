@@ -1,0 +1,118 @@
+{
+  "id": "28783bd0-8ad1-435a-a47c-6955917b1af2",
+  "name": "Travel_Cab",
+  "auto": true,
+  "contexts": [
+    "Travel"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cab",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "955cb48a-dc7d-4324-afac-2d6915529c9a",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "540b1536-5424-423f-8ac8-81456e79283c",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "eb42a0f5-235a-4717-a733-67ebf760e13c",
+          "required": true,
+          "dataType": "@Cab_Vendor",
+          "name": "Cab_Vendor",
+          "value": "$Cab_Vendor",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which cab you prefer?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d25a81bb-1009-4eca-8bf2-53e4b6ecefc9",
+          "required": true,
+          "dataType": "@sys.location",
+          "name": "PickUp_Location",
+          "value": "$PickUp_Location",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter pick up location"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "aed6ac14-934f-4b45-8c3e-3c83ffad7a0b",
+          "required": true,
+          "dataType": "@sys.location",
+          "name": "Drop_Location",
+          "value": "$Drop_Location",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter drop location"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Your $Cab_Vendor has been scheduled..PickUp Point:$PickUp_Location,Destination:$Drop_Location..Any other services you require?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
