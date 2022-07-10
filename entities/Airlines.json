@@ -1,0 +1,9 @@
+{
+  "id": "52805a93-97ed-4c02-8283-23e3d54b6591",
+  "name": "Airlines",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}
